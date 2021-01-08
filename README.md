@@ -51,7 +51,7 @@ In deze tutorial gaat u leren een racing game met ML-Agent te maken in Unity. In
 
 De objecten/scripts die gebruikt worden in dit project zijn gebundeld in een custom asset package, het is aangeraden om deze te installeren.
 Dit kan u doen door te navigeren naar Assests > Import Package > Custom package.
-De custom asset package kan u vinden onder de naam RacingGame.unitypackage.
+De custom asset package kan u hier vinden: <https://www.mediafire.com/file/kj412hv9dl1phw2/RacingGame.unitypackage/file>.
 
 #### 2.2 Verloop simulatie
 
