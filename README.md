@@ -96,51 +96,51 @@ Zoals reeds vermeld zijn alle objecten die gebruikt zijn in dit project gebundel
 
 ##### Player Car
 
-![PlayerCar](./images/PlayerCar.png)
-![PlayerCarSettings](./images/PlayerCarSettings.png)
-![PlayerCarWheelColliders](./images/PlayerCarWheelColliders.png)
+![PlayerCar](./images/PlayerCar.PNG)
+![PlayerCarSettings](./images/PlayerCarSettings.PNG)
+![PlayerCarWheelColliders](./images/PlayerCarWheelColliders.PNG)
 
 De player car beschikt over een Player Controller script dat ervoor zorgt dat de speler de auto kan bedienen aan de hand van de Oculus controllers. De player car beschikt ook over zowel een Rigidbody als een Box Collider. De player car wordt aangedreven door 4 wielen. Deze wielen kan u terugvinden in de prefabs. De colliders van deze wielen dienen toegekend te worden aan de Player Controller onder 'Wheel colliders'
 
 ##### AI Car
 
-![AICar](./images/AICar.png)
-![AICarSettings1](./images/AICarSettings1.png)
-![AICarSettings2](./images/AICarSettings2.png)
+![AICar](./images/AICar.PNG)
+![AICarSettings1](./images/AICarSettings1.PNG)
+![AICarSettings2](./images/AICarSettings2.PNG)
 
 De AI Car beschikt over verschillende scripts namelijk een Car controller, Ray Perception Sensor 3D, Behavior Parameters, Agent en Decision Requester. De Car controller is hier een variant op de Player Controller. Deze is aangepast zodat de AI car kan worden getrained. De AI car wordt aangedreven door 4 wielen. Deze wielen kan u terugvinden in de prefabs. De colliders van deze wielen dienen toegekend te worden aan de Car controller onder 'Wheel colliders'.
 
 ##### Weg
 
-![Weg](./images/Weg.png)
-![WegSettings](./images/WegSettings.png)
+![Weg](./images/Weg.PNG)
+![WegSettings](./images/WegSettings.PNG)
 
 U kan een circuit samenstellen door een combinatie te gebruiken van de verschillende onderdelen (rechte weg, bochten, etc).
 Vergeet niet om de weg de tag van "Wall" te geven. Deze tag wordt in de scripts gebruikt om de Agent af te straffen bij contact.
 
 ##### Finish
 
-![Finish](./images/Finish.png)
+![Finish](./images/Finish.PNG)
 
 In de Finish prefab zit een plane, belangrijk is dat deze de tag FinishLine heeft. Deze tag wordt gebruikt in de scripts om ervoor te zorgen dat als een auto over de finish rijdt het volgende circuit wordt ingeladen.
 
 ##### Checkpoint
 
-![Checkpoint](./images/Checkpoint.png)
+![Checkpoint](./images/Checkpoint.PNG)
 
 Om de checkpoint doorzichtig te maken kan je de mesh renderer afzetten.
 De checkpoints zijn dus volledig onzichtbaar en worden enkel gebruikt voor het trainen van de Agent en om ervoor te zorgen dat de Agent of de speler niet achteruit over de finishlijn kunnen rijden.
 
 ##### Camera
 
-![Camera](./images/Camera.png)
-![CameraSettings](./images/CameraSettings.png)
+![Camera](./images/Camera.PNG)
+![CameraSettings](./images/CameraSettings.PNG)
 
 Deze camera is geen gewone camera maar een XR Rig camera, deze zal ervoor zorgen dat in de VR bril een speler rond kan zien. De camera bevat het Camera Follow script, dit zorgt ervoor dat in de VR bril de camera de auto volgt wanneer deze beweegt.
 
 ##### Omgeving
 
-![Bomen](./images/Bomen.png)
+![Bomen](./images/Bomen.PNG)
 
 De omgevingen bevatten verschillende soorten bomen en bergen (Terrain) die ook in de assets kunnen worden teruggevonden. Deze zijn niet noodzakelijk om te gebruiken.
 
@@ -941,29 +941,29 @@ Er zijn bijna 100! runs gedaan. Tot nu toe geen enkele met optimaal resultaat.
 Hieronder zijn 12 runs, de andere runs zijn heel gelijkwaardig met deze runs. Deze runs met kleine aanpassingen van het beloningssysteem maar resulteren bijna altijd in hetzelfde resultaat.
 
 - Run 1
-  ![Run1](./images/Run1.png)
+  ![Run1](./images/Run1.PNG)
 - Run 2
-  ![Run2](./images/Run2.png)
+  ![Run2](./images/Run2.PNG)
 - Run 3
-  ![Run3](./images/Run3.png)
+  ![Run3](./images/Run3.PNG)
 - Run 4
-  ![Run4](./images/Run4.png)
+  ![Run4](./images/Run4.PNG)
 - Run 5
-  ![Run5](./images/Run5.png)
+  ![Run5](./images/Run5.PNG)
 - Run 6
-  ![Run6](./images/Run6.png)
+  ![Run6](./images/Run6.PNG)
 - Run 7
-  ![Run7](./images/Run7.png)
+  ![Run7](./images/Run7.PNG)
 - Run 8
-  ![Run8](./images/Run8.png)
+  ![Run8](./images/Run8.PNG)
 - Run 9
-  ![Run9](./images/Run9.png)
+  ![Run9](./images/Run9.PNG)
 - Run 10
-  ![Run10](./images/Run10.png)
+  ![Run10](./images/Run10.PNG)
 - Run 11
-  ![Run11](./images/Run11.png)
+  ![Run11](./images/Run11.PNG)
 - Run 12
-  ![Run12](./images/Run12.png)
+  ![Run12](./images/Run12.PNG)
 
 Wat opvalt is dat De Agent ergens een hoogtepunt bereikt en daarna altijd slechter begint te rijden. Af en toe wordt hij daarna weer iets beter maar uiteindelijk is het einde altijd hetzelfde, de agent bereikt op het einde bijna altijd een minimum.
 
