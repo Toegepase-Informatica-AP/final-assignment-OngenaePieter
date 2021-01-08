@@ -1,0 +1,47 @@
+{
+    "Racecar": {
+        "checkpoints": [
+            {
+                "steps": 149998,
+                "file_path": "results\\racer28\\Racecar\\Racecar-149998.nn",
+                "reward": -3.949527101982808,
+                "creation_time": 1610019171.7636602
+            },
+            {
+                "steps": 199938,
+                "file_path": "results\\racer28\\Racecar\\Racecar-199938.nn",
+                "reward": -1.5984788076939846,
+                "creation_time": 1610019455.635087
+            },
+            {
+                "steps": 249960,
+                "file_path": "results\\racer28\\Racecar\\Racecar-249960.nn",
+                "reward": 5.65721481689252,
+                "creation_time": 1610019740.5316525
+            },
+            {
+                "steps": 299950,
+                "file_path": "results\\racer28\\Racecar\\Racecar-299950.nn",
+                "reward": 5.926500846690033,
+                "creation_time": 1610020026.2728176
+            },
+            {
+                "steps": 345403,
+                "file_path": "results\\racer28\\Racecar\\Racecar-345403.nn",
+                "reward": 4.562910378893139,
+                "creation_time": 1610020285.6298118
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 345403,
+            "file_path": "results\\racer28\\Racecar.nn",
+            "reward": 4.562910378893139,
+            "creation_time": 1610020285.6298118
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

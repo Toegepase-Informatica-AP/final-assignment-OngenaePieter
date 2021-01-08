@@ -1,0 +1,35 @@
+{
+    "Racecar": {
+        "checkpoints": [
+            {
+                "steps": 49937,
+                "file_path": "results\\race19\\Racecar\\Racecar-49937.nn",
+                "reward": -6.179559422390802,
+                "creation_time": 1609169332.318111
+            },
+            {
+                "steps": 99993,
+                "file_path": "results\\race19\\Racecar\\Racecar-99993.nn",
+                "reward": -4.92579275312332,
+                "creation_time": 1609169682.1793544
+            },
+            {
+                "steps": 139569,
+                "file_path": "results\\race19\\Racecar\\Racecar-139569.nn",
+                "reward": -2.529574280310618,
+                "creation_time": 1609169955.6131074
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 139569,
+            "file_path": "results\\race19\\Racecar.nn",
+            "reward": -2.529574280310618,
+            "creation_time": 1609169955.6131074
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

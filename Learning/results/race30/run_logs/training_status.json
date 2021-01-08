@@ -1,0 +1,23 @@
+{
+    "Racecar": {
+        "checkpoints": [
+            {
+                "steps": 15460,
+                "file_path": "results\\race30\\Racecar\\Racecar-15460.nn",
+                "reward": -10.844703725539148,
+                "creation_time": 1609186121.7649407
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15460,
+            "file_path": "results\\race30\\Racecar.nn",
+            "reward": -10.844703725539148,
+            "creation_time": 1609186121.7649407
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.1"
+    }
+}

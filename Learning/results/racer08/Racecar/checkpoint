@@ -1,0 +1,3 @@
+model_checkpoint_path: "Racecar-72108.ckpt"
+all_model_checkpoint_paths: "Racecar-49984.ckpt"
+all_model_checkpoint_paths: "Racecar-72108.ckpt"

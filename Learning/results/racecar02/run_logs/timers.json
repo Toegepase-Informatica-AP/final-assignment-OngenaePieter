@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1609248382",
+        "python_version": "3.7.9 (default, Aug 31 2020, 17:10:11) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Pieter\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn Racecar.yml --run-id racecar02",
+        "mlagents_version": "0.19.0",
+        "mlagents_envs_version": "0.19.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.3.1",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1609248441"
+    },
+    "total": 59.4860054,
+    "count": 1,
+    "self": 0.2516529000000034,
+    "children": {
+        "run_training.setup": {
+            "total": 0.009017500000000123,
+            "count": 1,
+            "self": 0.009017500000000123
+        },
+        "TrainerController.start_learning": {
+            "total": 59.225335,
+            "count": 1,
+            "self": 0.0011349999999978877,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 59.2239895,
+                    "count": 1,
+                    "self": 59.2239895
+                },
+                "trainer_threads": {
+                    "total": 1.900000000887303e-06,
+                    "count": 1,
+                    "self": 1.900000000887303e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00020860000000055834,
+                    "count": 1,
+                    "self": 0.00020860000000055834
+                }
+            }
+        }
+    }
+}
