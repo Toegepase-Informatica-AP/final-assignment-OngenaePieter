@@ -84,11 +84,10 @@ Voor het trainen van de Agent wordt het volgende beloningssyteem gebruikt:
 | Omschrijving     | Beloning |
 | ---------------- | -------- |
 | contact met muur | -2f      |
-| achteruitrijden  | -0.001f  |
+| achteruitrijden  | -0.0001f |
 | stilstaan        | -0.1f    |
-| checkpoint       | +1f      |
-| Finish           | +2f      |
-| vooruitrijden    | +0.0001f |
+| checkpoint       | +0.5f    |
+| Finish           | +1.0f    |
 
 #### 2.4 Beschrijving objecten
 
@@ -737,7 +736,7 @@ private void Reset()
 }
 ```
 
-- Op elk circuit zijn 4 vaste checkpoints ingebouwd, wanneer een auto hier voorbij rijd veranderd de status hiervan. Pas als alle 4 de checkpoints zijn gepasseerd kan er over de finish worden gereden en wordt het volgende circuit geladen. In deze versie zijn er ook nog gewone checkpoints die de Agent een beloning geven als die deze checkpoints passeert. In deze versie zijn ook twee soorten finishline. De gewone FinishLine tag staat op het finish object in een echte race. Hierdoor zal het volgende circuit ingeladen worden. Bij het trainen hoort de tag FisnishLineTraining op het object Finishline gezet te worden. Hierdoor zal de episode eindigen en een nieuwe episode starten.
+- Op elk circuit zijn 4 vaste checkpoints ingebouwd, wanneer een auto hier voorbij rijdt veranderd de status hiervan. Pas als alle 4 de checkpoints zijn gepasseerd kan er over de finish worden gereden en wordt het volgende circuit geladen. In deze versie zijn er ook nog gewone checkpoints die de Agent een beloning geven als die deze checkpoints passeert. In deze versie zijn ook twee soorten finishline. De gewone FinishLine tag staat op het finish object in een echte race. Hierdoor zal het volgende circuit ingeladen worden. Bij het trainen hoort de tag FisnishLineTraining op het object Finishline gezet te worden. Hierdoor zal de episode eindigen en een nieuwe episode starten.
 
 ```c#
 private void OnTriggerEnter(Collider other)
@@ -968,8 +967,6 @@ Hieronder zijn 12 runs, de andere runs zijn heel gelijkwaardig met deze runs. De
 Wat opvalt is dat De Agent ergens een hoogtepunt bereikt en daarna altijd slechter begint te rijden. Af en toe wordt hij daarna weer iets beter maar uiteindelijk is het einde altijd hetzelfde, de agent bereikt op het einde bijna altijd een minimum.
 
 ### 5. Conclusie
-
-Wij hebben geprobeerd een Agent te trainen die op de snelst mogelijke manier verschillende circuits kan afleggen doormiddel van één brein.
 
 Wij hebben geprobeerd een Agent te trainen die op de snelst mogelijke manier verschillende circuits kan afleggen doormiddel van één brein.
 

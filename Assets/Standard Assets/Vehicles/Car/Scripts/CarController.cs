@@ -406,13 +406,7 @@ namespace UnityStandardAssets.Vehicles.Car
             //Achteruit
             if (vectorAction[0] == 1)
             {
-                AddReward(-0.001f);
-            }
-
-            //Vooruit
-            if (vectorAction[0] == 2)
-            {
-                AddReward(+0.0001f);
+                AddReward(-0.0001f);
             }
 
             float horizontal = vectorAction[1] == 0 ? 0f : vectorAction[1] * 2 - 3;
@@ -466,34 +460,35 @@ namespace UnityStandardAssets.Vehicles.Car
             if (other.gameObject.CompareTag("Checkpoint1"))
             {
                 checkpoint1 = true;
-                AddReward(1f);
+                AddReward(0.5f);
             }
 
             if (other.gameObject.CompareTag("Checkpoint2"))
             {
                 checkpoint2 = true;
-                AddReward(1f);
+                AddReward(0.5f);
             }
 
             if (other.gameObject.CompareTag("Checkpoint3"))
             {
                 checkpoint3 = true;
-                AddReward(1f);
+                AddReward(0.5f); ;
             }
 
             if (other.gameObject.CompareTag("Checkpoint4"))
             {
                 checkpoint4 = true;
-                AddReward(1f);
+                AddReward(0.5f);
             }
+
             if (other.gameObject.CompareTag("Checkpoint"))
             {
-                AddReward(1f);
+                AddReward(0.5f);
             }
 
             if (other.gameObject.CompareTag("TrainingFinishLine") && checkpoint1 == true && checkpoint2 == true && checkpoint3 == true && checkpoint4 == true)
             {
-                AddReward(2f);
+                AddReward(1f);
                 EndEpisode();
             }
             if (other.gameObject.CompareTag("FinishLine") && checkpoint1 == true && checkpoint2 == true && checkpoint3 == true && checkpoint4 == true)
